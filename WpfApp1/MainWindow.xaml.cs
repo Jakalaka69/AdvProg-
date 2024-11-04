@@ -49,7 +49,7 @@ namespace WpfApp1
         }
         private void OnClick(object sender, RoutedEventArgs e)
         {
-            Outbox.Text = Say.Interpreter(TBOX.Text).Item2.ToString();
+            Outbox.Text = "=" + Say.Interpreter(TBOX.Text).Item2.ToString();
         }
 
         private void TBOX_TextChanged(object sender, TextChangedEventArgs e)
